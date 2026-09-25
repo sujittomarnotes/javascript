@@ -18,6 +18,7 @@ console.log(MyName)
 
 myName = "abc"
 myname = "def"
+
 // MyName = "ghi"  - Not Reassignable
 
 console.log(myName)
