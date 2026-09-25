@@ -39,3 +39,29 @@ console.table([myAge, myNo, myRoll, idNo, typeof(myAge), typeof(myNo), typeof(my
 // console.log(typeof(myNo)); // number
 // console.log(typeof(myRoll)); // object
 // console.log(typeof(idNo)); // undefined
+
+// Conversion Operation with Boolean 
+
+let isPass = " "
+let isLogin = ""
+
+console.table([isPass, isLogin, typeof(isPass), typeof(isLogin)])
+
+
+let passRemarks = Boolean(isPass)
+let loginRemarks = Boolean(isLogin)
+
+console.table([passRemarks, loginRemarks, typeof(passRemarks), typeof(loginRemarks)])
+
+
+// Conversion Operation with String
+
+let name = true;
+let age = 26;
+
+console.table([name, age, typeof(name), typeof(age)]);
+
+let myName = String(name)
+let myNewAge = String(age)
+
+console.table([myName, myNewAge, typeof(myName), typeof(myNewAge)])
